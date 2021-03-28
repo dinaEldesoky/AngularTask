@@ -10,7 +10,7 @@
           "style": "scss"
         },
         "@schematics/angular:application": {
-          "strict": true
+          "strict": false
         }
       },
       "root": "",
@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              
               "src/styles.scss"
             ],
             "scripts": []
@@ -127,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "AngularTask"
+  "defaultProject": "AngularTask",
+  "cli": {
+    "analytics": "b29c7c15-fcb2-4fd2-b16d-c4059ffdb20c"
+  }
 }
